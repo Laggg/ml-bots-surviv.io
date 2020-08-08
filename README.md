@@ -59,7 +59,7 @@ ______________________________________________________________________________
 - [ ] 5) Behaviour cloning (BC)
 - [ ] 6) Imitation learning (from Berkley https://xbpeng.github.io/projects/DeepMimic/index.html)
 - [ ] 7) DQFD, DQFID (с прошлогоднего соревнования по Майнкрафту)
-
+![Image of Yaktocat](rl.png)
 
 #### DevOps-Задачи:
 - [x] 1) Научиться управлять агентом через selenium
