@@ -58,7 +58,9 @@ ______________________________________________________________________________
 - [ ] 4) Посерчить другие алгоритмы, позволяющие использовать чужой опыт
 - [ ] 5) Behaviour cloning (BC)
 - [ ] 6) Imitation learning (from Berkley https://xbpeng.github.io/projects/DeepMimic/index.html)
-- [ ] 7) DQFD, DQFID (с прошлогоднего соревнования по Майнкрафту)
+- [ ] 7) AQIL https://arxiv.org/ftp/arxiv/papers/2004/2004.00993.pdf
+- [ ] 8) DQFD, DQFID (с прошлогоднего соревнования по Майнкрафту)
+- [ ] 9) Selective Imitation Learning from Observations https://arxiv.org/pdf/1912.07670.pdf
 ![Image of Yaktocat](rl.png)
 
 #### DevOps-Задачи:
