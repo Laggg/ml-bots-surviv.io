@@ -56,7 +56,7 @@ ______________________________________________________________________________
 - [ ] 2) Попробовать прикрутить дефолтный QDN
 - [ ] 3) Чекнуть, какую архитектуру обучали OpenAI для Dota2 (big LSTM?) и каким образом
 - [ ] 4) Посерчить другие алгоритмы, позволяющие использовать чужой опыт
-- [ ] 5) Behaviour cloning (BC)
+- [ ] 5) Behaviour cloning https://arxiv.org/pdf/1805.01954.pdf
 - [ ] 6) Imitation learning (from Berkley https://xbpeng.github.io/projects/DeepMimic/index.html)
 - [ ] 7) AQIL https://arxiv.org/ftp/arxiv/papers/2004/2004.00993.pdf
 - [ ] 8) DQFD, DQFID (с прошлогоднего соревнования по Майнкрафту)
