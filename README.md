@@ -59,6 +59,7 @@ ______________________________________________________________________________
 - [ ] 5) Behaviour cloning https://arxiv.org/pdf/1805.01954.pdf
 - [x] 6) Imitation learning (from Berkley https://xbpeng.github.io/projects/DeepMimic/index.html) не нужно
 - [ ] 7) AQIL https://arxiv.org/ftp/arxiv/papers/2004/2004.00993.pdf
+- [ ] 8) Model-Free Imitation Learning with Policy Optimization https://arxiv.org/pdf/1605.08478.pdf
 - [ ] 8) DQFD, DQFID (с прошлогоднего соревнования по Майнкрафту)
 - [ ] 9) Selective Imitation Learning from Observations https://arxiv.org/pdf/1912.07670.pdf
 ![Image of Yaktocat](rl.png)
