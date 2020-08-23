@@ -56,12 +56,13 @@ ______________________________________________________________________________
 - [ ] 2) Попробовать прикрутить дефолтный QDN
 - [ ] 3) Чекнуть, какую архитектуру обучали OpenAI для Dota2 (big LSTM?) и каким образом
 - [ ] 4) Посерчить другие алгоритмы, позволяющие использовать чужой опыт
-- [ ] 5) simple Behaviour cloning (1 pair (s,a) or sequence pairs [(si,ai)]) https://arxiv.org/pdf/1605.08478.pdf
+- [ ] 5) simple Behaviour cloning (1 pair (s,a) or sequence pairs [(si,ai)]) https://arxiv.org/pdf/1605.08478.pdf (https://arxiv.org/pdf/1801.06503.pdf)
 - [ ] 6) AQIL https://arxiv.org/ftp/arxiv/papers/2004/2004.00993.pdf
 - [ ] 7) Model-Free Imitation Learning with Policy Optimization https://arxiv.org/pdf/1605.08478.pdf
 - [ ] 8) Behavioral Cloning from Observation https://arxiv.org/pdf/1805.01954.pdf
-- [ ] 9) IRL methods
-- [ ] 10) DQFD, DQFID (с прошлогоднего соревнования по Майнкрафту)
+- [ ] 9) Integrating Behavior Cloning and Reinforcement Learning for Improved Performance in Dense and Sparse Reward https://arxiv.org/pdf/1910.04281v1.pdf
+- [ ] 10) IRL methods
+- [ ] 11) DQFD, DQFID (с прошлогоднего соревнования по Майнкрафту)
 ![Image of Yaktocat](rl.png)
 
 #### DevOps-Задачи:
