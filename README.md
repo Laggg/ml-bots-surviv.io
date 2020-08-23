@@ -56,12 +56,12 @@ ______________________________________________________________________________
 - [ ] 2) Попробовать прикрутить дефолтный QDN
 - [ ] 3) Чекнуть, какую архитектуру обучали OpenAI для Dota2 (big LSTM?) и каким образом
 - [ ] 4) Посерчить другие алгоритмы, позволяющие использовать чужой опыт
-- [ ] 5) Behaviour cloning https://arxiv.org/pdf/1805.01954.pdf
-- [x] 6) Imitation learning (from Berkley https://xbpeng.github.io/projects/DeepMimic/index.html) не нужно
-- [ ] 7) AQIL https://arxiv.org/ftp/arxiv/papers/2004/2004.00993.pdf
-- [ ] 8) Model-Free Imitation Learning with Policy Optimization https://arxiv.org/pdf/1605.08478.pdf
-- [ ] 8) DQFD, DQFID (с прошлогоднего соревнования по Майнкрафту)
-- [ ] 9) Selective Imitation Learning from Observations https://arxiv.org/pdf/1912.07670.pdf
+- [ ] 5) simple Behaviour cloning (1 pair (s,a) or sequence pairs [(si,ai)]) https://arxiv.org/pdf/1605.08478.pdf
+- [ ] 6) AQIL https://arxiv.org/ftp/arxiv/papers/2004/2004.00993.pdf
+- [ ] 7) Model-Free Imitation Learning with Policy Optimization https://arxiv.org/pdf/1605.08478.pdf
+- [ ] 8) Behavioral Cloning from Observation https://arxiv.org/pdf/1805.01954.pdf
+- [ ] 9) IRL methods
+- [ ] 10) DQFD, DQFID (с прошлогоднего соревнования по Майнкрафту)
 ![Image of Yaktocat](rl.png)
 
 #### DevOps-Задачи:
