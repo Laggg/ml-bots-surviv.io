@@ -61,8 +61,9 @@ ______________________________________________________________________________
 - [ ] 7) Model-Free Imitation Learning with Policy Optimization https://arxiv.org/pdf/1605.08478.pdf
 - [ ] 8) Behavioral Cloning from Observation https://arxiv.org/pdf/1805.01954.pdf
 - [ ] 9) Integrating Behavior Cloning and Reinforcement Learning for Improved Performance in Dense and Sparse Reward https://arxiv.org/pdf/1910.04281v1.pdf
-- [ ] 10) IRL methods
-- [ ] 11) DQFD, DQFID (с прошлогоднего соревнования по Майнкрафту)
+- [ ] 10) Adapt https://pdfs.semanticscholar.org/7f81/d161d97897e93a979395ffa3b3124f0d4e94.pdf?_ga=2.199838759.860601702.1599318537-259032781.1595773256
+- [ ] 11) IRL methods
+- [ ] 12) DQFD, DQFID (с прошлогоднего соревнования по Майнкрафту)
 ![Image of Yaktocat](rl.png)
 
 #### DevOps-Задачи:
