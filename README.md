@@ -65,7 +65,7 @@ ______________________________________________________________________________
 - [ ] 10) Adapt https://pdfs.semanticscholar.org/7f81/d161d97897e93a979395ffa3b3124f0d4e94.pdf?_ga=2.199838759.860601702.1599318537-259032781.1595773256
 - [ ] 11) IRL methods
 - [ ] 12) DQFD, DQFID (с прошлогоднего соревнования по Майнкрафту)
-- [x] 13) Default Behavior Cloning для передвижений [презентация](https://www.dropbox.com/s/3hd7e4k8fdgrhz7/RLsurvivio_Laggg.pptx?dl=0) [видео-демонстрация](https://www.youtube.com/watch?v=Mm-jnoGctT4)
+- [x] 13) Default Behavior Cloning для передвижений [презентация](https://www.dropbox.com/s/3hd7e4k8fdgrhz7/RLsurvivio_Laggg.pptx?dl=0) и [видео-демонстрация](https://www.youtube.com/watch?v=Mm-jnoGctT4)
 ![Image of Yaktocat](rl.png)
 
 #### DevOps-Задачи:
