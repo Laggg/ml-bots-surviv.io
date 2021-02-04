@@ -55,17 +55,14 @@ ______________________________________________________________________________
 #### RL-Задачи для выбора и реализации алгоритма:
 - [x] 1) DQN для google dino (CV+RL)
 - [x] 2) Default Behavior Cloning для передвижений, основанный на 1 кадре - отчеты: [выступление](https://www.youtube.com/watch?v=549vx32JCmI); [презентация](https://www.dropbox.com/s/3hd7e4k8fdgrhz7/RLsurvivio_Laggg.pptx?dl=0); [видео-демонстрация игры агента](https://www.youtube.com/watch?v=Mm-jnoGctT4)
-- [ ] 3) адаптировать DQN
-- [ ] 4) Чекнуть, какую архитектуру обучали OpenAI для Dota2 (big LSTM?) и каким образом
-- [ ] 5) Посерчить другие алгоритмы, позволяющие использовать чужой опыт
-- [ ] 6) simple Behaviour cloning (1 pair (s,a) or sequence pairs [(si,ai)]) https://arxiv.org/pdf/1605.08478.pdf (https://arxiv.org/pdf/1801.06503.pdf)
-- [ ] 7) AQIL https://arxiv.org/ftp/arxiv/papers/2004/2004.00993.pdf
-- [ ] 8) Model-Free Imitation Learning with Policy Optimization https://arxiv.org/pdf/1605.08478.pdf
-- [ ] 9) Behavioral Cloning from Observation https://arxiv.org/pdf/1805.01954.pdf
-- [ ] 10) Integrating Behavior Cloning and Reinforcement Learning for Improved Performance in Dense and Sparse Reward https://arxiv.org/pdf/1910.04281v1.pdf
-- [ ] 11) Adapt https://pdfs.semanticscholar.org/7f81/d161d97897e93a979395ffa3b3124f0d4e94.pdf?_ga=2.199838759.860601702.1599318537-259032781.1595773256
-- [ ] 12) IRL methods
-- [ ] 13) DQFD, DQFID (с прошлогоднего соревнования по Майнкрафту)
+- [ ] 3) simple Behaviour cloning (1 pair (s,a) or sequence pairs [(si,ai)]) https://arxiv.org/pdf/1605.08478.pdf (https://arxiv.org/pdf/1801.06503.pdf)
+- [ ] 4) AQIL https://arxiv.org/ftp/arxiv/papers/2004/2004.00993.pdf
+- [ ] 5) Model-Free Imitation Learning with Policy Optimization https://arxiv.org/pdf/1605.08478.pdf
+- [ ] 6) Behavioral Cloning from Observation https://arxiv.org/pdf/1805.01954.pdf
+- [ ] 7) Integrating Behavior Cloning and Reinforcement Learning for Improved Performance in Dense and Sparse Reward https://arxiv.org/pdf/1910.04281v1.pdf
+- [ ] 8) Adapt https://pdfs.semanticscholar.org/7f81/d161d97897e93a979395ffa3b3124f0d4e94.pdf?_ga=2.199838759.860601702.1599318537-259032781.1595773256
+- [ ] 9) IRL methods
+- [ ] 10) DQFD, DQFID (соревнование по Майнкрафту 2019г)
 
 ![Image of Yaktocat](rl.png)
 
