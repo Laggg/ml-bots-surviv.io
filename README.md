@@ -55,7 +55,7 @@ ______________________________________________________________________________
 #### RL-Задачи для выбора и реализации алгоритма:
 - [x] 1) QDN для google dino (CV+RL)
 - [x] 2) Default Behavior Cloning для передвижений, основанный на 1 кадре - отчеты: [выступление](https://www.youtube.com/watch?v=549vx32JCmI); [презентация](https://www.dropbox.com/s/3hd7e4k8fdgrhz7/RLsurvivio_Laggg.pptx?dl=0); [видео-демонстрация игры агента](https://www.youtube.com/watch?v=Mm-jnoGctT4)
-- [ ] 2*) Default Behavior Cloning, основанный на 2х кадрах (LSTM) [видео-демонстрация игры агента](https://www.youtube.com/watch?v=nxyUSVWcnoE&t)
+- [x] 2*) Default Behavior Cloning, основанный на 2х кадрах (LSTM) [видео-демонстрация игры агента](https://www.youtube.com/watch?v=nxyUSVWcnoE&t)
 - [x] 3) Global overview of Imitation Learning https://arxiv.org/pdf/1801.06503.pdf - в общем, там о том, как правильно собирать четверки (s0,a,r,s)
 - [ ] 4) DQN (default) реварды на белый лут + уменьшение хп
 - [ ] 5) DQfD (Deep Q-learning from Demonstrations) https://arxiv.org/pdf/1704.03732.pdf
