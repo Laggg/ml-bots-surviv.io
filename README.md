@@ -53,16 +53,20 @@ ______________________________________________________________________________
 - [x] 15) подобрать архитектуру энкодера для сжатия картинок [демонстрация](https://www.youtube.com/watch?v=wBjNGPV2ZI0)
 
 #### RL-Задачи для выбора и реализации алгоритма:
-- [x] 1) DQN для google dino (CV+RL)
+- [x] 1) QDN для google dino (CV+RL)
 - [x] 2) Default Behavior Cloning для передвижений, основанный на 1 кадре - отчеты: [выступление](https://www.youtube.com/watch?v=549vx32JCmI); [презентация](https://www.dropbox.com/s/3hd7e4k8fdgrhz7/RLsurvivio_Laggg.pptx?dl=0); [видео-демонстрация игры агента](https://www.youtube.com/watch?v=Mm-jnoGctT4)
-- [ ] 3) simple Behaviour cloning (1 pair (s,a) or sequence pairs [(si,ai)]) https://arxiv.org/pdf/1605.08478.pdf (https://arxiv.org/pdf/1801.06503.pdf)
-- [ ] 4) AQIL https://arxiv.org/ftp/arxiv/papers/2004/2004.00993.pdf
-- [ ] 5) Model-Free Imitation Learning with Policy Optimization https://arxiv.org/pdf/1605.08478.pdf
-- [ ] 6) Behavioral Cloning from Observation https://arxiv.org/pdf/1805.01954.pdf
-- [ ] 7) Integrating Behavior Cloning and Reinforcement Learning for Improved Performance in Dense and Sparse Reward https://arxiv.org/pdf/1910.04281v1.pdf
-- [ ] 8) Adapt https://pdfs.semanticscholar.org/7f81/d161d97897e93a979395ffa3b3124f0d4e94.pdf?_ga=2.199838759.860601702.1599318537-259032781.1595773256
-- [ ] 9) IRL methods
-- [ ] 10) DQFD, DQFID (соревнование по Майнкрафту 2019г)
+- [x] 3) Global overview of Imitation Learning https://arxiv.org/pdf/1801.06503.pdf - в общем, там о том, как правильно собирать четверки (s0,a,r,s)
+- [ ] 4) DQN (default) реварды на белый лут + уменьшение хп
+- [ ] 5) DQfD (Deep Q-learning from Demonstrations) https://arxiv.org/pdf/1704.03732.pdf
+- [ ] 6) DQfID (~Deep Q-learning from Imperfect Demonstrations) https://arxiv.org/pdf/1802.05313.pdf
+- [ ] 7) HDQF Hierarchical Deep Q-Network with Forgetting from Imperfect Demonstrations in Minecraft https://onedrive.live.com/?authkey=%21AFDSgJNVy4ZOSTo&cid=D6756E60216ED995&id=D6756E60216ED995%2135891&parId=D6756E60216ED995%2111959&o=OneUp (MIPT)
+- [ ] 8) SQIL https://arxiv.org/pdf/1905.11108.pdf
+- [ ] 9) AQIL https://arxiv.org/ftp/arxiv/papers/2004/2004.00993.pdf
+- [ ] 10) Model-Free Imitation Learning with Policy Optimization https://arxiv.org/pdf/1605.08478.pdf
+- [ ] 11) Behavioral Cloning from Observation https://arxiv.org/pdf/1805.01954.pdf
+- [ ] 12) Integrating Behavior Cloning and Reinforcement Learning for Improved Performance in Dense and Sparse Reward https://arxiv.org/pdf/1910.04281v1.pdf
+- [ ] 13) Adapt https://pdfs.semanticscholar.org/7f81/d161d97897e93a979395ffa3b3124f0d4e94.pdf?_ga=2.199838759.860601702.1599318537-259032781.1595773256
+- [ ] 14) IRL methods
 
 ![Image of Yaktocat](rl.png)
 
