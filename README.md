@@ -1,7 +1,7 @@
 ## [Windows] 
 #### For the first launch 
 
-1) git clone ```https://github.com/Laggg/ml-bots-surviv.io.git``` or dowland this repo as zip-file
+1) ``` git clone https://github.com/Laggg/ml-bots-surviv.io.git ``` or dowland this repo as zip-file
 2) скачать веса модели и положить ее в папку /support_files/
 3) скачать драйвер для браузера, который зависит от вашей версии хрома и вашей операционной системы и положить его в папку /support_files/
 4) open Anaconda prompt in folder of this repo
