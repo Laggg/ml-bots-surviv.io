@@ -18,7 +18,7 @@ def get_args():
     parser.add_argument('--chrome_adblock', type=str,
                         default="supporting_files/uBlockOrigin.crx")
     parser.add_argument('--device', type=str, default='cpu')
-    parser.add_argument('--n_iter', type=int, default=25)
+    parser.add_argument('--n_iter', type=int, default=500)
     parser.add_argument('--print_metrics', type=bool, default=False)
     parser.add_argument('--plot_states', type=bool, default=False)
     parser.add_argument('--save_video', type=bool, default=False)
