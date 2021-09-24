@@ -4,13 +4,15 @@ import time
 import torch
 import argparse
 import numpy as np
-from utils import NeuralNet, BRAIN, check_device, get_driver_path
+from utils import (NeuralNet, BRAIN, 
+    check_device, get_driver_path, get_model_weights)
 from control_scripts_lib import SurvivAgent, Game
 
 
 def get_args():
     parser = argparse.ArgumentParser()
-    parser.add_argument('--model_path', type=str, required=True)
+    parser.add_argument('--model_path', type=str, 
+                        default="supporting_files/chromedriver")
     parser.add_argument('--chrome_driver_path', type=str,
                         default="supporting_files/chromedriver")
     parser.add_argument('--chrome_adblock', type=str,
@@ -76,6 +78,7 @@ def save_video(output_file: str, screen_shots, fps: int = 60,
 def main():
     args = get_args()
 
+    args.model_path = get_model_weights(args.model_path)
     args.device = check_device(args.device)
     args.chrome_driver_path = get_driver_path(args.chrome_driver_path)
 

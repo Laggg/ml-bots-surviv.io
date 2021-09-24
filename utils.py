@@ -11,10 +11,16 @@ import matplotlib.pyplot as plt
 def get_driver_path(driver_path):
     folder_path = driver_path.split('/')[0]
     driver = [
-        x for x in os.listdir(driver_path.split('/')[0]) if 'driver' in x
+        x for x in os.listdir(folder_path) if 'driver' in x
     ][0]
     return folder_path + "/" + driver
 
+def get_model_weights(weights_path):
+    folder_path = weights_path.split('/')[0]
+    weights = [
+        x for x in os.listdir(folder_path) if 'model_weights' in x
+    ][0]
+    return folder_path + "/" + weights
 
 def check_device(device):
     ''' check if cuda is available for inference '''
