@@ -2,15 +2,13 @@
 #### For the first launch 
 
 1) git clone or dowland this repo as zip-file
-2) open Anaconda prompt in folder of this repo
-4) create a virtual environment: python –m venv surviv_env  (вместо "surviv_env" можете написать любое другое название окружения, с помощью которого будете запускать этот код)
-5) cd surviv_env/scripts
-6) activate
-7) cd ../../
-8) pip install -r requirements.txt
-9) скачать веса модели и положить ее в папку /support_files/
-10) скачать драйвер для браузера, который зависит от вашей версии хрома и вашей операционной системы и положить его в папку /support_files/
-11) python play.py
+2) скачать веса модели и положить ее в папку /support_files/
+3) скачать драйвер для браузера, который зависит от вашей версии хрома и вашей операционной системы и положить его в папку /support_files/
+4) open Anaconda prompt in folder of this repo
+5) create a virtual environment: python –m venv surviv_env  (вместо "surviv_env" можете написать любое другое название окружения, с помощью которого будете запускать этот код)
+6) cd surviv_env/scripts && activate && cd ../../
+7) pip install -r requirements.txt
+8) python play.py
 
 #### For the second+ launch 
 0) earlier you do 1-10 steps from paragraph "For the first launch"
