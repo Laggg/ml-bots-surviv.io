@@ -6,6 +6,7 @@
 git clone https://github.com/Laggg/ml-bots-surviv.io.git
 ```
 **2)** Dowland neural net weights from [this link](https://drive.google.com/u/0/uc?id=1l3exfxwT4ZVk1R6V2sxZimTafx1EkNtO&export=download) and put it into *./support_files/* folder
+
 **3)** Dowland driver for your OS and for your chrome version (check your google chrome version!) from [link](https://chromedriver.chromium.org/downloads), unzip it and put into *./support_files/* folder
 
 > after 3rd step you can check you *./support_files/* folder:
