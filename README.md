@@ -1,4 +1,12 @@
+### For the first launch [Windows]
 
+1) open Anaconda prompt in some folder
+2) git clone or dowland this repo as zip-file
+3) create a virtual environment: python –m venv surviv_env  (вместо "surviv_env" можете написать любое другое название окружения, с помощью которого будете запускать этот код)
+4) cd surviv_env/scripts
+5) activate
+6) cd ../../
+7) pip install -r requirements.txt
 
 
 ### Activating Surviv environment
