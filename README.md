@@ -20,7 +20,7 @@ https://chromedriver.chromium.org/downloads
 https://drive.google.com/u/0/uc?id=1l3exfxwT4ZVk1R6V2sxZimTafx1EkNtO&export=download
 ```
 
-### Playing Surviv.io game
+### Playing surviv.io game
 ```
 python play.py
 ```
