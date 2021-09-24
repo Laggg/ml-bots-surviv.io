@@ -1,12 +1,14 @@
 ## [Windows] 
 #### For the first launch 
 
-1) Clone or dowland this repo as zip-file:
+1) Clone repo by *Anaconda Prompt* or dowland zip-file repo and unzip it:
 ```
 git clone https://github.com/Laggg/ml-bots-surviv.io.git
 ```
-4) скачать веса модели и положить ее в папку /support_files/
-5) скачать драйвер для браузера, который зависит от вашей версии хрома и вашей операционной системы и положить его в папку /support_files/
+2) Dowland neural net weights from [this link](https://drive.google.com/u/0/uc?id=1l3exfxwT4ZVk1R6V2sxZimTafx1EkNtO&export=download) and put it into *support_files* folder
+3) Dowland driver for your OS and for your chrome version (check your google chrome version!) from [link](https://chromedriver.chromium.org/downloads), unzip it and put into *support_files* folder
+
+
 6) open Anaconda prompt in folder of this repo
 7) create a virtual environment: python –m venv surviv_env  (вместо "surviv_env" можете написать любое другое название окружения, с помощью которого будете запускать этот код)
 8) cd surviv_env/scripts && activate && cd ../../
