@@ -17,5 +17,5 @@ https://chromedriver.chromium.org/downloads
 
 ### Playing Surviv.io game
 ```
-python play.py --model_path='supporting_assets/model_weights.pth' --chrome_driver_path='supporting_assets/chromedriver' --chrome_adblock='supporting_assets/uBlockOrigin.crx'
+python play.py --model_path='supporting_assets/model_weights.pth'
 ```
