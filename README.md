@@ -1,5 +1,5 @@
-### For the first launch [Windows]
-
+## [Windows] 
+#### For the first launch 
 
 1) git clone or dowland this repo as zip-file
 2) open Anaconda prompt in folder of this repo
