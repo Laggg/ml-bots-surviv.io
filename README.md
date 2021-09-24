@@ -12,7 +12,7 @@
 10) скачать драйвер для браузера, который зависит от вашей версии хрома и вашей операционной системы и положить его в папку /support_files/
 11) python play.py
 
-
+## [Ubuntu\MacOS] 
 ### Activating Surviv environment
 ```
 python3 -m venv surviv_env 
