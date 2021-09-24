@@ -17,5 +17,5 @@ https://chromedriver.chromium.org/downloads
 
 ### Playing Surviv.io game
 ```
-python play.py --model_path='supporting_assets/model_weights.pth'
+python play.py
 ```
