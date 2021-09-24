@@ -14,6 +14,11 @@ pip install -r requirements.txt
 https://chromedriver.chromium.org/downloads
 ```
 
+### Model weights
+
+```
+https://drive.google.com/u/0/uc?id=1l3exfxwT4ZVk1R6V2sxZimTafx1EkNtO&export=download
+```
 
 ### Playing Surviv.io game
 ```
