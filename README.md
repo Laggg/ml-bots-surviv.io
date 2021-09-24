@@ -7,6 +7,9 @@
 5) activate
 6) cd ../../
 7) pip install -r requirements.txt
+8) скачать веса модели и положить ее в папку /support_files/
+9) скачать драйвер для браузера, который зависит от вашей версии хрома и вашей операционной системы
+10) python play.py
 
 
 ### Activating Surviv environment
