@@ -9,6 +9,8 @@ This bot tries to solve only **the locomotion problem** by training on human gam
 
 ![w](https://hsto.org/webt/h7/vn/dt/h7vndtkzlinfkyoqzpcmjxecubu.gif)
 
+![w2](https://www.youtube.com/watch?v=nxyUSVWcnoE&t=12s&ab_channel=Laggg%2FAlexeyKlokov)
+
 #### Main features:
 - our bot can get closer to the boxes with loot
 - our bot knows how to avoid red zone
