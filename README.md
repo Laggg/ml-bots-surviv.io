@@ -3,7 +3,7 @@
 # Intro
 We present our **machine learning bot** (ml-bot is in alpha testing), which plays the [game](https://surviv.io/) itself.
 
-This bot tries to solve only **the locomotion problem** by training on human letsplays.
+This bot tries to solve only **the locomotion problem** by training on human letsplays. To train this agent, we used 100 youtube-videos containing 1.2 million frames.
 
 ![Image of Yaktocat](jupyter_demo/for_preview.png)
 
