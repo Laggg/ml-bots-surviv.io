@@ -33,15 +33,15 @@ We assume that if people are interested in watching other gamers (professional o
   
   ### Before the first launch
   
-  **1.** Check that you have Anaconda3 with python3
+  **1.** Check that you have `Anaconda3` with `python3`
 
-  **2.** Check that you have google chrome browser (our agent supports only chrome)
+  **2.** Check that you have `google chrome browser` (our agent supports only chrome)
 
   ### For the first launch
   
   **0.** Earlier you do 1-2 steps from paragraph *Before the first launch*
 
-  **1.** Clone repo by *Anaconda Prompt* or dowland zip-file repo and unzip it
+  **1.** Clone repo by `Anaconda Prompt` or dowland zip-file repo and unzip it
   ```
   git clone https://github.com/Laggg/ml-bots-surviv.io.git
   ```
