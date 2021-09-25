@@ -4,7 +4,7 @@ We present our machine learning bot (ml-bot is in alpha testing), which plays th
 
 ![Image of Yaktocat](jupyter_demo/for_preview.png)
 
-Now it trained only in locomotion on letsplays of real players.
+This bot tries to solve only **the locomotion problem** by training on human letsplays.
 
 Main features:
 - our bot gets closer to the boxes with loot
