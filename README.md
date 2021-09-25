@@ -31,7 +31,8 @@ We assume that if people are interested in watching other gamers (professional o
 # Installation guides
 
 <details>
-  <summary>**Windows**</summary>
+  <summary>Windows</summary>
+  </br>
   
   __1. Clone GitHub repository__
   
@@ -76,7 +77,7 @@ We assume that if people are interested in watching other gamers (professional o
 </details>
 
 <details>
-  <summary>**Ubuntu\MacOS**</summary>
+  <summary>Ubuntu\MacOS</summary>
 </br>
   
   __1. Clone GitHub repository__
