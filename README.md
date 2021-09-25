@@ -15,8 +15,6 @@ Main features:
 
 # Technical stack
     - 1
-    - 2
-
 
 
 # Installation guide for Windows
