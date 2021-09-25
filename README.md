@@ -100,6 +100,7 @@ We assume that if people are interested in watching other gamers (professional o
   **2.** Downloading supporting files:
 
   Download model weights from [here](https://drive.google.com/u/0/uc?id=1l3exfxwT4ZVk1R6V2sxZimTafx1EkNtO&export=download) and chromedriver, that suits your chrome version from [here](https://chromedriver.chromium.org/downloads). 
+  
   Locate both files to `./supporting_files/` folder.
 
   
