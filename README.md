@@ -5,9 +5,7 @@ We present our **machine learning bot** (ml-bot is in alpha testing), which play
 
 This bot tries to solve only **the locomotion problem** by training on human gameplay. To train this agent, we used [100 youtube-videos](for_annotators/video_data) containing 1.2 million frames (equivalent to ~12 hours of gameplay recordings).
 
-![Image of Yaktocat](jupyter_demo/for_preview.png)
-
-![](jupyter_demo/h7vndtkzlinfkyoqzpcmjxecubu.gif)
+![](jupyter_demo/temp_result.gif)
 
 #### Main features:
 - our bot can get closer to the boxes with loot
