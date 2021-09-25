@@ -1,6 +1,6 @@
 # Intro
 
-We present our machine learning bot (ml-bot is in alpha testing), which plays the [game](surviv.io) itself.
+We present our machine learning bot (ml-bot is in alpha testing), which plays the [game](https://surviv.io/) itself.
 
 Now it trained only in locomotion on letsplays of real players.
 
