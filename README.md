@@ -10,6 +10,8 @@ Main features:
 - our bot can get closer to the boxes with loot
 - our bot knows how to avoid red zone
 - our bot is trying to get out of the red zone (if the zone has covered it)
+- our bot begins to move chaotically, when enemies shoot at him
+- our bot likes to build a route through the bushes
 
 # Installation guide for Windows
 
