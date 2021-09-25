@@ -1,9 +1,9 @@
 [![License: MIT](https://img.shields.io/badge/License-MIT-green.svg)](https://opensource.org/licenses/MIT)
 
 # Intro
-We present our **machine learning bot** (ml-bot is in alpha testing), which plays the [game](https://surviv.io/) itself.
+We present our **machine learning bot** (ml-bot is in alpha testing), which can play the [surviv.io](https://surviv.io/) game.
 
-This bot tries to solve only **the locomotion problem** by training on human gameplay. To train this agent, we used [100 youtube-videos](for_annotators/video_data) containing 1.2 million frames (equivalent to ~12 hours of gameplay recordings).
+This bot tries to solve only **the locomotion problem** by training on human gameplay. To train this agent, we have used [100 youtube-videos](for_annotators/video_data) containing 1.2 million frames (equivalent to ~12 hours of gameplay recordings).
 
 ![Image of Yaktocat](jupyter_demo/for_preview.png)
 
@@ -17,15 +17,15 @@ This bot tries to solve only **the locomotion problem** by training on human gam
 - our bot likes to build a route through the bushes
 
 # Motivation
-The goal is to develop a bot that was interesting to watch. The behavior of the bot should not differ from the behavior of a person in similar situations. Our research will help raise the level of AI in games, make games more interesting, and bots in them more similar to the actions of a real person.
+The goal is to develop a bot that is interesting to watch. The behavior of the bot should not differ from the behavior of a person in similar situations. Our research will help raise the level of AI in games, make games more interesting, and bots in them more similar to the actions of a real person.
 
 We assume that if people are interested in watching other gamers (professional or not) through [twitch](https://www.twitch.tv/), then they will be interested in watching our agent as well. 
 
 # Technical stack
 - python3
-- selenium *(play game)*
-- openCV *(preprocess screenshots)*
-- torch *(choose action)*
+- selenium *(agent actions execution in game environment)*
+- openCV *(screenshots processing)*
+- torch *(action selection)*
 - mss *(do screenshots)*
 
 # Installation guide for Windows
