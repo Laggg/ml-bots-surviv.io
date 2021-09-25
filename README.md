@@ -58,15 +58,16 @@
 <details>
   <summary>guide for Ubuntu\MacOS</summary>
   ### [For the first launch]
-  **1.** ```git clone https://github.com/Laggg/ml-bots-surviv.io```
-
+  **1.**
+  ```
+  git clone https://github.com/Laggg/ml-bots-surviv.io
+  ```
   **2.** Use terminal in this repo-folder
   ```
   python3 -m venv surviv_env 
   source surviv_env/bin/activate
   pip install -r requirements.txt 
   ```
-
   **3.** ```python play.py```
 </details>
 
