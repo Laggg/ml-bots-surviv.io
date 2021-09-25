@@ -33,7 +33,8 @@ We assume that if people are interested in watching other gamers (professional o
 <details>
   <summary>Windows</summary>
   </br>
-  
+
+  ## Initial usage
   __1. Clone GitHub repository__
   
   ```
@@ -80,6 +81,7 @@ We assume that if people are interested in watching other gamers (professional o
   <summary>Ubuntu\MacOS</summary>
 </br>
   
+  ## Initial usage
   __1. Clone GitHub repository__
   
   ```
