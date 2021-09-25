@@ -1,5 +1,4 @@
 # Intro
-
 We present our **machine learning bot** (ml-bot is in alpha testing), which plays the [game](https://surviv.io/) itself.
 
 ![Image of Yaktocat](jupyter_demo/for_preview.png)
@@ -12,6 +11,9 @@ Main features:
 - our bot is trying to get out of the red zone (if the zone has covered it)
 - our bot begins to move chaotically, when enemies shoot at him
 - our bot likes to build a route through the bushes
+
+# Motivation
+The goal is to develop a bot that was interesting to watch. The behavior of the bot should not differ from the behavior of a person in similar situations. We assume that if people are interested in watching other people's professional games through [twitch](https://www.twitch.tv/), then they will be interested in watching our agent as well. Our research will help raise the level of AI in games, make games more interesting, and bots in them more similar to the actions of a real person.
 
 # Technical stack
 - python3
