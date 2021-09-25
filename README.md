@@ -39,7 +39,7 @@ We assume that if people are interested in watching other gamers (professional o
 
   ### For the first launch
   
-  **0.** Earlier you do 1-2 steps from paragraph **Before the first launch**
+  **0.** Earlier you do 1-2 steps from paragraph **"Before the first launch"**
 
   **1.** Clone repo by `Anaconda Prompt` or dowland zip-file repo and unzip it
   ```
@@ -76,7 +76,7 @@ We assume that if people are interested in watching other gamers (professional o
 
   ### For the second+ launch
   
-  **0.** Earlier you do 1-9 steps from paragraph *For the first launch*
+  **0.** Earlier you do 1-9 steps from paragraph **"For the first launch"**
 
   **1.** Open Anaconda prompt inside repo-folder
 
