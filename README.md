@@ -46,23 +46,25 @@ python play.py
 
 **1.** Open Anaconda prompt inside repo-folder
 
-**2.** cd surviv_env/scripts && activate && cd ../../
+**2.** ```cd surviv_env/scripts && activate && cd ../../```
 
-**3.** python play.py
+**3.** ```python play.py```
 
 **4.** After all you can close deactivate virtual env and close Anaconda prompt window
 
 
 
 
-## [Ubuntu\MacOS] 
-### Activating Surviv environment
+## Ubuntu\MacOS
+### [For the first launch]
+**1.** ```git clone https://github.com/Laggg/ml-bots-surviv.io```
+
+**2.**
 ```
+cd ml-bots-surviv.io
 python3 -m venv surviv_env 
 source surviv_env/bin/activate
 pip install -r requirements.txt 
 ```
-### Playing surviv.io game
-```
-python play.py
-```
+
+**3.** ```python play.py```
