@@ -3,9 +3,9 @@
 We present our machine learning bot (ml-bot is in alpha testing), which plays the [game](surviv.io) itself.
 Now it trained only in locomotion on letsplays of real players.
 Main features:
-    - our bot gets closer to the boxes with loot
-    - our bot does not enter the red zone
-    - our bot is trying to get out of the red zone (if the zone has covered it)
+- our bot gets closer to the boxes with loot
+- our bot does not enter the red zone
+- our bot is trying to get out of the red zone (if the zone has covered it)
 
 # Installation guide for Windows
 
