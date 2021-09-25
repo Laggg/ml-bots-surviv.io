@@ -13,6 +13,12 @@ Main features:
 - our bot begins to move chaotically, when enemies shoot at him
 - our bot likes to build a route through the bushes
 
+# Technical stack
+    - 1
+    - 2
+
+
+
 # Installation guide for Windows
 
 <details>
