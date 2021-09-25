@@ -20,11 +20,13 @@ The goal is to develop a bot that is interesting to watch. The behavior of the b
 We assume that if people are interested in watching other gamers (professional or not) through [twitch](https://www.twitch.tv/), then they will be interested in watching our agent as well. 
 
 # Technical stack
+- offline reinforcement learning and off-policy algorithms
 - python3
 - selenium *(agent actions execution in game environment)*
 - openCV *(screenshots processing)*
 - torch *(action selection)*
 - mss *(do screenshots)*
+
 
 # Installation guides
 
