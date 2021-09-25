@@ -15,10 +15,10 @@ Main features:
 
 # Technical stack
 - python3
-- selenium (game)
-- openCV (preprocess screenshots)
-- torch (choose action)
-- mss (screenshots)
+- selenium *(game)*
+- openCV *(preprocess screenshots)*
+- torch *(choose action)*
+- mss *(screenshots)*
 
 # Installation guide for Windows
 
