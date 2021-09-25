@@ -7,7 +7,7 @@ git clone https://github.com/Laggg/ml-bots-surviv.io.git
 ```
 **2.** Dowland neural net weights from [this link](https://drive.google.com/u/0/uc?id=1l3exfxwT4ZVk1R6V2sxZimTafx1EkNtO&export=download) and put it into *./support_files/* folder
 
-**3.** Dowland driver for your OS and for your chrome version (check your google chrome version!) from [link](https://chromedriver.chromium.org/downloads), unzip it and put into *./support_files/* folder
+**3.** Dowland driver for your OS and for your chrome version (don't forget to check your google chrome version!) from [link](https://chromedriver.chromium.org/downloads), unzip it and put into *./support_files/* folder
 
 > after 3rd step you can check you *./support_files/* folder:
 >> ![image](https://user-images.githubusercontent.com/45121687/134749881-a239f8be-ce69-41d3-9988-21e1083e3e3e.png)
@@ -16,14 +16,24 @@ git clone https://github.com/Laggg/ml-bots-surviv.io.git
 > example:
 >> ![image](https://user-images.githubusercontent.com/45121687/134750475-d2ce7f57-c692-4fa6-8441-b90f7117a502.png)
 
+**5.** Create a virtual environment for this project
+```
+python –m venv surviv_env
+```
+**6.** Activate created virtual environment
+```
+cd surviv_env/scripts && activate && cd ../../
+```
+**7.** Install all required libraries
+```
+pip install -r requirements.txt
+```
+**8.** Launch the agent into the game!
+```
+python play.py
+```
+**9.** After all you can close deactivate virtual env and close Anaconda prompt window
 
-7) create a virtual environment for this project
-
-
-9) python –m venv surviv_env  (вместо "surviv_env" можете написать любое другое название окружения, с помощью которого будете запускать этот код)
-10) cd surviv_env/scripts && activate && cd ../../
-11) pip install -r requirements.txt
-12) python play.py
 
 #### For the second+ launch 
 0) earlier you do 1-10 steps from paragraph "For the first launch"
