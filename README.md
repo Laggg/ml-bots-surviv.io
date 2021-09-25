@@ -7,8 +7,8 @@ We present our machine learning bot (ml-bot is in alpha testing), which plays th
 This bot tries to solve only **the locomotion problem** by training on human letsplays.
 
 Main features:
-- our bot gets closer to the boxes with loot
-- our bot does not enter the red zone
+- our bot can get closer to the boxes with loot
+- our bot knows how to avoid red zone
 - our bot is trying to get out of the red zone (if the zone has covered it)
 
 # Installation guide for Windows
