@@ -9,7 +9,7 @@ This bot tries to solve only **the locomotion problem** by training on human gam
 
 ![w](https://hsto.org/webt/h7/vn/dt/h7vndtkzlinfkyoqzpcmjxecubu.gif)
 
-![w](https://www.youtube.com/watch?v=nxyUSVWcnoE&t=12s&ab_channel=Laggg%2FAlexeyKlokov)
+![w](jupyter_demo/for_preview.png)
 
 #### Main features:
 - our bot can get closer to the boxes with loot
