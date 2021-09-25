@@ -44,6 +44,7 @@ We assume that if people are interested in watching other gamers (professional o
 
   Locate both files to `./supporting_files/` folder.
 
+  >![image](https://user-images.githubusercontent.com/45121687/134784795-2e45c0b0-51f5-4842-a482-f443c6071916.png)
   
   __3. Create python virtual environment and install requirements.txt__
   
