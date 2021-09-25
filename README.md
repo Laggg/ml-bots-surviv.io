@@ -1,6 +1,5 @@
 ## [Windows] 
-#### For the first launch 
-
+### For the first launch 
 **1.** Clone repo by *Anaconda Prompt* or dowland zip-file repo and unzip it
 ```
 git clone https://github.com/Laggg/ml-bots-surviv.io.git
@@ -34,12 +33,15 @@ python play.py
 ```
 **9.** After all you can close deactivate virtual env and close Anaconda prompt window
 
+### For the second+ launch 
+**0.** Earlier you do 1-9 steps from paragraph "For the first launch"
+**1.** Open Anaconda prompt inside repo-folder
+**2.** cd surviv_env/scripts && activate && cd ../../
+**3.** python play.py
+**4.** After all you can close deactivate virtual env and close Anaconda prompt window
 
-#### For the second+ launch 
-0) earlier you do 1-10 steps from paragraph "For the first launch"
-1) open anaconda prompt in folder with this repo
-2) cd surviv_env/scripts && activate && cd ../../
-3) python play.py
+
+
 
 ## [Ubuntu\MacOS] 
 ### Activating Surviv environment
@@ -48,19 +50,6 @@ python3 -m venv surviv_env
 source surviv_env/bin/activate
 pip install -r requirements.txt 
 ```
-
-### ChromeDriver
-
-```
-https://chromedriver.chromium.org/downloads
-```
-
-### Model weights
-
-```
-https://drive.google.com/u/0/uc?id=1l3exfxwT4ZVk1R6V2sxZimTafx1EkNtO&export=download
-```
-
 ### Playing surviv.io game
 ```
 python play.py
