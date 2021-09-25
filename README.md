@@ -1,5 +1,7 @@
+# guide for Windows
+
 <details>
-  <summary>guide for Windows</summary>
+  <summary>see guide for Windows</summary>
   
   ### [Before the first launch]
   **1.** Check that you have Anaconda3 with python3
@@ -54,9 +56,10 @@
   **4.** After all you can close deactivate virtual env and close Anaconda prompt window
 </details>
 
+# guide for Ubuntu\MacOS
 
 <details>
-  <summary>guide for Ubuntu\MacOS</summary>
+  <summary>see guide for Ubuntu\MacOS</summary>
   
   ### [For the first launch]
   **1.**
