@@ -1,5 +1,5 @@
 <details>
-  <summary>## Windows</summary>
+  <summary>**Windows**</summary>
   
   ### [Before the first launch]
   **1.** Check that you have Anaconda3 with python3
