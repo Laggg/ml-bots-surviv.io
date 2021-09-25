@@ -90,6 +90,7 @@ We assume that if people are interested in watching other gamers (professional o
 
 <details>
   <summary>see guide for Ubuntu\MacOS</summary>
+</br>
   
   __1. Clone GitHub repository__
   
