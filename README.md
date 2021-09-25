@@ -12,11 +12,11 @@
 ```
 git clone https://github.com/Laggg/ml-bots-surviv.io.git
 ```
-**2.** Dowland neural net weights from [this link](https://drive.google.com/u/0/uc?id=1l3exfxwT4ZVk1R6V2sxZimTafx1EkNtO&export=download) and put it into *./support_files/* folder
+**2.** Dowland neural net weights from [this link](https://drive.google.com/u/0/uc?id=1l3exfxwT4ZVk1R6V2sxZimTafx1EkNtO&export=download) and put it into *./supporting_files/* folder
 
-**3.** Dowland driver for your OS and for your chrome version (don't forget to check your google chrome version!) from [link](https://chromedriver.chromium.org/downloads), unzip it and put into *./support_files/* folder
+**3.** Dowland driver for your OS and for your chrome version (don't forget to check your google chrome version!) from [link](https://chromedriver.chromium.org/downloads), unzip it and put into *./supporting_files/* folder
 
-> after 3rd step you can check *./support_files/* folder:
+> after 3rd step you can check *./supporting_files/* folder:
 >> ![image](https://user-images.githubusercontent.com/45121687/134749881-a239f8be-ce69-41d3-9988-21e1083e3e3e.png)
 
 **4.** Open Anaconda prompt inside repo-folder
