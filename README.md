@@ -3,7 +3,7 @@
 # Intro
 We present our **machine learning bot** (ml-bot is in alpha testing), which plays the [game](https://surviv.io/) itself.
 
-This bot tries to solve only **the locomotion problem** by training on human gameplay. To train this agent, we used 100 youtube-videos containing 1.2 million frames (equivalent to ~12 hours of gameplay recordings).
+This bot tries to solve only **the locomotion problem** by training on human gameplay. To train this agent, we used [100 youtube-videos](for_annotators/video_data) containing 1.2 million frames (equivalent to ~12 hours of gameplay recordings).
 
 ![Image of Yaktocat](jupyter_demo/for_preview.png)
 
