@@ -14,7 +14,7 @@ Main features:
 - our bot likes to build a route through the bushes
 
 # Technical stack
-    - 1
+ - 1
 
 
 # Installation guide for Windows
