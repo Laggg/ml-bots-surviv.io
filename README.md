@@ -30,6 +30,7 @@ We assume that if people are interested in watching other gamers (professional o
 
 <details>
   <summary>Windows</summary>
+  
   ### Before the first launch
   
   **1.** Check that you have Anaconda3 with python3
