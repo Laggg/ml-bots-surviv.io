@@ -91,14 +91,18 @@ We assume that if people are interested in watching other gamers (professional o
 <details>
   <summary>see guide for Ubuntu\MacOS</summary>
   
-  ### [For the first launch]
-  **1.**
+  **1.** Clone GitHub repository
   
   ```
   git clone https://github.com/Laggg/ml-bots-surviv.io
   ```
+
+  **2.** Downloading supporting files:
+
+  Download model weights from [here](https://drive.google.com/u/0/uc?id=1l3exfxwT4ZVk1R6V2sxZimTafx1EkNtO&export=download) and chromedriver, that suits your chrome version from [here](https://chromedriver.chromium.org/downloads). Locate both files to *./supporting_files/* folder 
+
   
-  **2.** Use terminal in this repo-folder
+  **3.** Create venv and install requirements.txt
   
   ```
   python3 -m venv surviv_env 
@@ -106,7 +110,7 @@ We assume that if people are interested in watching other gamers (professional o
   pip install -r requirements.txt 
   ```
   
-  **3.**
+  **4.** Run the agent 
   ```
   python play.py
   ```
