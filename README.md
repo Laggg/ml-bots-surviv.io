@@ -105,7 +105,7 @@ We assume that if people are interested in watching other gamers (professional o
   Locate both files to `./supporting_files/` folder.
 
   
-  __3. Create venv and install requirements.txt__
+  __3. Create python virtual environment and install requirements.txt__
   
   ```
   python3 -m venv surviv_env 
