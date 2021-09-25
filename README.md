@@ -57,6 +57,7 @@
 
 <details>
   <summary>guide for Ubuntu\MacOS</summary>
+  
   ### [For the first launch]
   **1.**
   
