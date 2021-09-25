@@ -29,6 +29,57 @@ We assume that if people are interested in watching other gamers (professional o
 # Installation guides
 
 <details>
+  <summary>Ubuntu\MacOS</summary>
+  
+  ## Initial usage
+  __1. Clone GitHub repository__
+  
+  ```
+  git clone https://github.com/Laggg/ml-bots-surviv.io
+  ```
+
+  __2. Download supporting files__
+
+  Download model weights from [here](https://drive.google.com/u/0/uc?id=1l3exfxwT4ZVk1R6V2sxZimTafx1EkNtO&export=download) and chromedriver, that suits your chrome version, from [here](https://chromedriver.chromium.org/downloads) (unzip it, if needed). 
+
+  Locate both files to `./supporting_files/` folder.
+
+  
+  __3. Create python virtual environment and install requirements.txt__
+  
+  ```
+  cd ml-bots-surviv.io
+  python -m venv surviv_env 
+  source surviv_env/bin/activate
+  pip install -r requirements.txt 
+  ```
+  <details>
+    <summary>possible issues: </summary>
+    
+    Issue: Could not build wheels for opencv-python which use PEP 517 and cannot be installed directly
+    Solution: `pip install --upgrade pip setuptools wheel`
+  </details>
+
+
+  __4. Run the agent__
+  ```
+  python play.py
+  ```
+  
+  ## Later usage
+
+  __1. Activate python environment__
+  ```
+  source surviv_env/bin/activate
+  ``` 
+
+  __2. Run the agent__
+  ```
+  python play.py
+  ```
+</details>
+
+<details>
   <summary>Windows</summary>
   
   ### Before the first launch
@@ -86,55 +137,4 @@ We assume that if people are interested in watching other gamers (professional o
 
   **4.** After all you can close deactivate virtual env and close `Anaconda prompt` window
   
-</details>
-
-<details>
-  <summary>Ubuntu\MacOS</summary>
-  
-  ## Initial usage
-  __1. Clone GitHub repository__
-  
-  ```
-  git clone https://github.com/Laggg/ml-bots-surviv.io
-  ```
-
-  __2. Download supporting files__
-
-  Download model weights from [here](https://drive.google.com/u/0/uc?id=1l3exfxwT4ZVk1R6V2sxZimTafx1EkNtO&export=download) and chromedriver, that suits your chrome version, from [here](https://chromedriver.chromium.org/downloads) (unzip it, if needed). 
-
-  Locate both files to `./supporting_files/` folder.
-
-  
-  __3. Create python virtual environment and install requirements.txt__
-  
-  ```
-  cd ml-bots-surviv.io
-  python -m venv surviv_env 
-  source surviv_env/bin/activate
-  pip install -r requirements.txt 
-  ```
-  <details>
-    <summary>possible issues: </summary>
-    
-    Issue: Could not build wheels for opencv-python which use PEP 517 and cannot be installed directly
-    Solution: `pip install --upgrade pip setuptools wheel`
-  </details>
-
-
-  __4. Run the agent__
-  ```
-  python play.py
-  ```
-  
-  ## Later usage
-
-  __1. Activate python environment__
-  ```
-  source surviv_env/bin/activate
-  ``` 
-
-  __2. Run the agent__
-  ```
-  python play.py
-  ```
 </details>
