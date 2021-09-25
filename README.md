@@ -3,7 +3,7 @@
 # Intro
 We present our **machine learning bot** (ml-bot is in alpha testing), which can play the [surviv.io](https://surviv.io/) game.
 
-This bot tries to solve only **the locomotion problem** by training on human gameplay and processing the incoming frame-picture with its algorithms. To train this agent, we have used [100 youtube-videos](for_annotators/video_data) containing 1.2 million frames (equivalent to ~12 hours of gameplay recordings). Anyone can run the bot on their device (see below our `Installation guides`).
+This bot tries to solve only **the locomotion problem** by training on human gameplay and processing the incoming frame-picture with its **Deep Learning algorithms**. To train this agent, we have used [100 youtube-videos](for_annotators/video_data) containing 1.2 million frames (equivalent to ~12 hours of gameplay recordings). Anyone can run the bot on their device (see below our `Installation guides`).
 
 ![](jupyter_demo/temp_result.gif)
 
