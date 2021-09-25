@@ -72,7 +72,7 @@ We assume that if people are interested in watching other gamers (professional o
   ```
   python play.py
   ```
-  **9.** After all you can deactivate virtual env and close Anaconda prompt window
+  **9.** After all you can deactivate virtual env and close `Anaconda prompt` window
 
   ### For the second+ launch
   
