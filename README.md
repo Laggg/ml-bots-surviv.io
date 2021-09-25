@@ -2,6 +2,8 @@
 
 We present our machine learning bot (ml-bot is in alpha testing), which plays the [game](https://surviv.io/) itself.
 
+![Image of Yaktocat](jupyter_demo/for_preview.png)
+
 Now it trained only in locomotion on letsplays of real players.
 
 Main features:
