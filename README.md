@@ -102,7 +102,8 @@ We assume that if people are interested in watching other gamers (professional o
   <details>
     <summary>possible issues</summary>
     </br>
-    * *Could not build wheels for opencv-python which use PEP 517 and cannot be installed directly*
+    - Could not build wheels for opencv-python which use PEP 517 and cannot be installed directly
+    
       Solution: `pip install --upgrade pip setuptools wheel`
   </details>
 
