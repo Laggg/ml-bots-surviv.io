@@ -33,57 +33,46 @@ We assume that if people are interested in watching other gamers (professional o
 <details>
   <summary>Windows</summary>
   
-  ### Before the first launch
-  **1.** Check that you have Anaconda3 with python3
-
-  **2.** Check that you have google chrome browser (our agent supports only chrome)
-
-  ### For the first launch
-  **0.** Earlier you do 1-2 steps from paragraph *Before the first launch*
-
-  **1.** Clone repo by *Anaconda Prompt* or dowland zip-file repo and unzip it
+  __1. Clone GitHub repository__
+  
   ```
-  git clone https://github.com/Laggg/ml-bots-surviv.io.git
+  git clone https://github.com/Laggg/ml-bots-surviv.io
   ```
-  **2.** Dowland neural net weights from [this link](https://drive.google.com/u/0/uc?id=1l3exfxwT4ZVk1R6V2sxZimTafx1EkNtO&export=download) and put it into *./supporting_files/* folder
+  __2. Download supporting files__
 
-  **3.** Dowland driver for your OS and for your chrome version (don't forget to check your google chrome version!) from [link](https://chromedriver.chromium.org/downloads), unzip it and put into *./supporting_files/* folder
+  Download model weights from [here](https://drive.google.com/u/0/uc?id=1l3exfxwT4ZVk1R6V2sxZimTafx1EkNtO&export=download) and chromedriver, that suits your chrome version, from [here](https://chromedriver.chromium.org/downloads). 
 
-  > after 3rd step you can check *./supporting_files/* folder:
-  >> ![image](https://user-images.githubusercontent.com/45121687/134749881-a239f8be-ce69-41d3-9988-21e1083e3e3e.png)
+  Locate both files to `./supporting_files/` folder.
 
-  **4.** Open Anaconda prompt inside repo-folder
-  > example:
-  >> ![image](https://user-images.githubusercontent.com/45121687/134750475-d2ce7f57-c692-4fa6-8441-b90f7117a502.png)
+  > ![image](https://user-images.githubusercontent.com/45121687/134749881-a239f8be-ce69-41d3-9988-21e1083e3e3e.png)
 
-  **5.** Create a virtual environment for this project
+
+  __3. Create python virtual environment and install requirements.txt__
+  
   ```
-  python –m venv surviv_env
-  ```
-  **6.** Activate created virtual environment
-  ```
+  cd ml-bots-surviv.io
+  python –m venv surviv_env 
   cd surviv_env/scripts && activate && cd ../../
-  ```
-  **7.** Install all required libraries
-  ```
-  pip install -r requirements.txt
-  ```
-  **8.** Launch the agent into the game!
+  pip install -r requirements.txt 
+  ``` 
+  >![image](https://user-images.githubusercontent.com/45121687/134750475-d2ce7f57-c692-4fa6-8441-b90f7117a502.png)
+
+  __4. Run the agent__
   ```
   python play.py
   ```
-  **9.** After all you can deactivate virtual env and close Anaconda prompt window
-  
-  ### For the second+ launch
-  **0.** Earlier you do 1-9 steps from paragraph *For the first launch*
 
-  **1.** Open Anaconda prompt inside repo-folder
+  ### Later usage
 
-  **2.** ```cd surviv_env/scripts && activate && cd ../../```
+  __1. Activate python environment__
+  ```
+  cd surviv_env/scripts && activate && cd ../../
+  ``` 
 
-  **3.** ```python play.py```
-
-  **4.** After all you can close deactivate virtual env and close Anaconda prompt window
+  __2. Run the agent__
+  ```
+  python play.py
+  ```
 </details>
 
 <details>
@@ -106,7 +95,8 @@ We assume that if people are interested in watching other gamers (professional o
   __3. Create python virtual environment and install requirements.txt__
   
   ```
-  python3 -m venv surviv_env 
+  cd ml-bots-surviv.io
+  python -m venv surviv_env 
   source surviv_env/bin/activate
   pip install -r requirements.txt 
   ```
@@ -116,4 +106,15 @@ We assume that if people are interested in watching other gamers (professional o
   python play.py
   ```
   
+  ### Later usage
+
+  __1. Activate python environment__
+  ```
+  source surviv_env/bin/activate
+  ``` 
+
+  __2. Run the agent__
+  ```
+  python play.py
+  ```
 </details>
