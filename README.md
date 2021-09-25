@@ -1,7 +1,7 @@
 ## [Windows] 
 #### For the first launch 
 
-**1.** Clone repo by *Anaconda Prompt* or dowland zip-file repo and unzip it:
+**1.** Clone repo by *Anaconda Prompt* or dowland zip-file repo and unzip it
 ```
 git clone https://github.com/Laggg/ml-bots-surviv.io.git
 ```
