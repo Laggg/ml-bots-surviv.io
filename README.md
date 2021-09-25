@@ -93,27 +93,27 @@ We assume that if people are interested in watching other gamers (professional o
   
   **1.** Clone GitHub repository
   
-    ```
-    git clone https://github.com/Laggg/ml-bots-surviv.io
+  > ```
+   git clone https://github.com/Laggg/ml-bots-surviv.io
     ```
 
   **2.** Downloading supporting files:
 
-    Download model weights from [here](https://drive.google.com/u/0/uc?id=1l3exfxwT4ZVk1R6V2sxZimTafx1EkNtO&export=download) and chromedriver, that suits your chrome version from [here](https://chromedriver.chromium.org/downloads). 
+  > Download model weights from [here](https://drive.google.com/u/0/uc?id=1l3exfxwT4ZVk1R6V2sxZimTafx1EkNtO&export=download) and chromedriver, that suits your chrome version from [here](https://chromedriver.chromium.org/downloads). 
 
-    Locate both files to `./supporting_files/` folder.
+  > Locate both files to `./supporting_files/` folder.
 
   
   **3.** Create venv and install requirements.txt
   
-    ```
-    python3 -m venv surviv_env 
-    source surviv_env/bin/activate
-    pip install -r requirements.txt 
+  > ```
+   python3 -m venv surviv_env 
+   source surviv_env/bin/activate
+   pip install -r requirements.txt 
     ```
   
   **4.** Run the agent 
-    ```
+  > ```
     python play.py
     ```
   
