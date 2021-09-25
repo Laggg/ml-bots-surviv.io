@@ -1,4 +1,4 @@
-# guide for Windows
+# Installation guide for Windows
 
 <details>
   <summary>see guide for Windows</summary>
@@ -56,7 +56,7 @@
   **4.** After all you can close deactivate virtual env and close Anaconda prompt window
 </details>
 
-# guide for Ubuntu\MacOS
+# Installation guide for Ubuntu\MacOS
 
 <details>
   <summary>see guide for Ubuntu\MacOS</summary>
