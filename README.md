@@ -7,7 +7,7 @@ This bot tries to solve only **the locomotion problem** by training on human gam
 
 ![](jupyter_demo/temp_result.gif)
 
-#### Main features:
+#### Main agent's features:
 - our bot can get closer to the boxes with loot
 - our bot knows how to avoid red zone
 - our bot is trying to get out of the red zone (if the zone has covered it)
