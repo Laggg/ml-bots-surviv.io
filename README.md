@@ -99,7 +99,14 @@ We assume that if people are interested in watching other gamers (professional o
   source surviv_env/bin/activate
   pip install -r requirements.txt 
   ```
-  
+  <details>
+    <summary>possible issues</summary>
+    </br>
+    * *Could not build wheels for opencv-python which use PEP 517 and cannot be installed directly*
+      Solution: `pip install --upgrade pip setuptools wheel`
+  </details>
+
+
   __4. Run the agent__
   ```
   python play.py
