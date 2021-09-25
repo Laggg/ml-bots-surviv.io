@@ -31,11 +31,13 @@ We assume that if people are interested in watching other gamers (professional o
 <details>
   <summary>Windows</summary>
   ### Before the first launch
+  
   **1.** Check that you have Anaconda3 with python3
 
   **2.** Check that you have google chrome browser (our agent supports only chrome)
 
   ### For the first launch
+  
   **0.** Earlier you do 1-2 steps from paragraph *Before the first launch*
 
   **1.** Clone repo by *Anaconda Prompt* or dowland zip-file repo and unzip it
@@ -72,6 +74,7 @@ We assume that if people are interested in watching other gamers (professional o
   **9.** After all you can deactivate virtual env and close Anaconda prompt window
 
   ### For the second+ launch
+  
   **0.** Earlier you do 1-9 steps from paragraph *For the first launch*
 
   **1.** Open Anaconda prompt inside repo-folder
@@ -81,6 +84,7 @@ We assume that if people are interested in watching other gamers (professional o
   **3.** ```python play.py```
 
   **4.** After all you can close deactivate virtual env and close Anaconda prompt window
+  
 </details>
 
 <details>
