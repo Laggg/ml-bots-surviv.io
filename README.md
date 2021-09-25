@@ -15,9 +15,9 @@ This bot tries to solve only **the locomotion problem** by training on human let
 - our bot likes to build a route through the bushes
 
 # Motivation
-The goal is to develop a bot that was interesting to watch. The behavior of the bot should not differ from the behavior of a person in similar situations.
+The goal is to develop a bot that was interesting to watch. The behavior of the bot should not differ from the behavior of a person in similar situations. Our research will help raise the level of AI in games, make games more interesting, and bots in them more similar to the actions of a real person.
 
-We assume that if people are interested in watching other gamers (professional or not) through twitch, then they will be interested in watching our agent as well. Our research will help raise the level of AI in games, make games more interesting, and bots in them more similar to the actions of a real person.
+We assume that if people are interested in watching other gamers (professional or not) through [twitch](https://www.twitch.tv/), then they will be interested in watching our agent as well. 
 
 # Technical stack
 - python3
