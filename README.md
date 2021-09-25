@@ -14,8 +14,11 @@ Main features:
 - our bot likes to build a route through the bushes
 
 # Technical stack
-  - 1
-
+- python3
+- selenium (game)
+- openCV (preprocess screenshots)
+- torch (choose action)
+- mss (screenshots)
 
 # Installation guide for Windows
 
