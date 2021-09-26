@@ -14,6 +14,12 @@ This bot tries to solve only **the locomotion problem** by training on human gam
 - our bot begins to move chaotically, when enemies shoot at him
 - our bot likes to build a route through the bushes
 
+#### Further backlog:
+- improve the agent's movement
+- train the agent to properly interact with the loot and with the cursor, shoot, use helpful items
+- optimize the agent control architecture
+- delve deeper into RL algorithms
+
 # Motivation
 The goal is to develop a bot that is interesting to watch. The behavior of the bot should not differ from the behavior of a person in similar situations. Our research will help raise the level of AI in games, make games more interesting, and bots in them more similar to the actions of a real person.
 
