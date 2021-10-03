@@ -2,7 +2,7 @@
   
 ![](jupyter_demo/temp_result.gif)
 
-[![License: MIT](https://img.shields.io/badge/License-MIT-green.svg)](https://opensource.org/licenses/MIT)
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 [![Slack](./jupyter_demo/slack.svg)](https://opendatascience.slack.com/archives/CJW0A6U78/p1632648992121300?thread_ts=1632648992.121300&cid=CJW0A6U78)
 
 [![os](https://img.shields.io/badge/Linux-passing-success)]()
