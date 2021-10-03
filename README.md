@@ -1,4 +1,6 @@
 <div align="center">
+  
+![](jupyter_demo/temp_result.gif)
 
 [![License: MIT](https://img.shields.io/badge/License-MIT-green.svg)](https://opensource.org/licenses/MIT)
 [![Slack](./jupyter_demo/slack.svg)](https://opendatascience.slack.com/archives/CJW0A6U78/p1632648992121300?thread_ts=1632648992.121300&cid=CJW0A6U78)
@@ -12,8 +14,6 @@
 We present our **machine learning bot** (ml-bot is in alpha testing), which can play the [surviv.io](https://surviv.io/) game.
 
 This bot tries to solve only **the locomotion problem** by training on human gameplay and processing the incoming frame-picture with its **Deep Learning algorithms**. To train this agent, we have used [100 youtube-videos](for_annotators/video_data) containing 1.2 million frames (equivalent to ~12 hours of gameplay recordings). Anyone can run the bot on their device (see below our `Installation guides`).
-
-![](jupyter_demo/temp_result.gif)
 
 #### Current agent's features:
 - our bot can get closer to the boxes with loot
