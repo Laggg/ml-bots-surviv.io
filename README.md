@@ -1,8 +1,8 @@
 [![License: MIT](https://img.shields.io/badge/License-MIT-green.svg)](https://opensource.org/licenses/MIT)
 
 [![os](https://img.shields.io/badge/Linux-passing-success)]()
-[![os](https://img.shields.io/badge/OSX-passing-success)]()
-[![os](https://img.shields.io/badge/WSL-passing-success)]()
+[![os](https://img.shields.io/badge/MacOS-passing-success)]()
+[![os](https://img.shields.io/badge/Windows-passing-success)]()
 
 # Intro
 We present our **machine learning bot** (ml-bot is in alpha testing), which can play the [surviv.io](https://surviv.io/) game.
