@@ -1,7 +1,7 @@
 <div align="center">
 
 [![License: MIT](https://img.shields.io/badge/License-MIT-green.svg)](https://opensource.org/licenses/MIT)
-[![Slack](./pics/slack.svg)](https://opendatascience.slack.com/messages/CGK4KQBHD)
+[![Slack](./jupyter_demo/slack.svg)](https://opendatascience.slack.com/messages/CGK4KQBHD)
 
 [![os](https://img.shields.io/badge/Linux-passing-success)]()
 [![os](https://img.shields.io/badge/MacOS-passing-success)]()
