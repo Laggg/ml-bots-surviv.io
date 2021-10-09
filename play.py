@@ -1,7 +1,8 @@
-import platform
+import os
 import cv2
 import mss
 import time
+import gdown
 import torch
 import argparse
 import numpy as np
@@ -14,8 +15,6 @@ def get_args():
 	parser = argparse.ArgumentParser()
 	parser.add_argument('--model_path', type=str, 
 						default="supporting_files/model_weights.pth")
-	parser.add_argument('--chrome_driver_path', type=str,
-						default="supporting_files/chromedriver")
 	parser.add_argument('--chrome_adblock', type=str,
 						default="supporting_files/uBlockOrigin.crx")
 	parser.add_argument('--device', type=str, default='cpu')
@@ -27,11 +26,19 @@ def get_args():
 	return parser.parse_args()
 
 
-def load_model(model_path: str, device: str):
+def load_model(device: str):
 	''' loading action model '''
+	url = 'https://drive.google.com/u/0/uc?id=1l3exfxwT4ZVk1R6V2sxZimTafx1EkNtO&export=download'
+	output = 'supporting_files/model_weights.pth'
+	if os.path.isfile(output):
+		print(f'File is found in {output}')
+	else:
+		print('Downloading')
+		gdown.download(url, output, quiet=False)
+
 	model = NeuralNet()
 	model.load_state_dict(
-		torch.load(model_path, map_location=torch.device(device))
+		torch.load(output, map_location=torch.device(device))
 	)
 	model.eval()
 	return model
@@ -79,12 +86,10 @@ def save_video(output_file: str, screen_shots, fps: int = 60,
 def main():
 	args = get_args()
 
-	args.model_path = get_model_weights(args.model_path)
 	args.device = check_device(args.device)
-	args.chrome_driver_path = get_driver_path(args.chrome_driver_path)
 
-	model = load_model(args.model_path, args.device)
-	game_env = Game(args.chrome_driver_path, args.chrome_adblock)
+	model = load_model(args.device)
+	game_env = Game(args.chrome_adblock)
 	agent = SurvivAgent(game_env)
 	agent_control = BRAIN(
 		agent=agent,

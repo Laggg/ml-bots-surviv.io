@@ -3,6 +3,7 @@ from selenium.webdriver import Chrome, ChromeOptions #, Firefox, FirefoxOptions
 from selenium.webdriver.chrome.options import Options
 from selenium.webdriver.common.keys import Keys
 from selenium.webdriver import ActionChains
+from webdriver_manager.chrome import ChromeDriverManager
 
 from enum import Enum
 import json
@@ -57,19 +58,16 @@ class Direction(Enum):
 		return self.value
 
 class Game:
-	def __init__(self, chrome_driver, chrome_adblock, custom_config=True, classic_mode=True):
+	def __init__(self, chrome_adblock, custom_config=True, classic_mode=True):
 		self.game_url ='https://surviv.io/'
 		#https://chromedriver.chromium.org/downloads
-		#self.chrome_driver = '/home/laggg/RL_surviv/control_architecture/control_scripts_lib/support_files_for_selenium/chromedriver'
-		self.chrome_driver = chrome_driver
-		#https://www.crx4chrome.com/crx/31931/
-		#self.chrome_adblock = '/home/laggg/RL_surviv/control_architecture/control_scripts_lib/support_files_for_selenium/uBlockOrigin.crx' 
 		self.chrome_adblock = chrome_adblock
 		chrOptions = ChromeOptions()
 		chrOptions.add_extension(self.chrome_adblock)
 		chrOptions.add_argument("disable-infobars")
 		chrOptions.add_argument("--mute-audio")
-		self.browser = Chrome(executable_path=self.chrome_driver, chrome_options=chrOptions)
+		self.browser = Chrome(
+			ChromeDriverManager().install(), chrome_options=chrOptions)
 		self.browser.set_window_position(x=-10,y=0)
 		self.browser.get(self.game_url)
 		self.browser.implicitly_wait(3)
@@ -79,7 +77,6 @@ class Game:
 			self.browser.find_element_by_xpath("/html/body/div[9]/div[34]/div[1]/div[1]/span").click()
 		except:
 			print('Not found')
-		#self.browser.find_element_by_id("modal-account-incentive-btn").click()
 		try:
 			self.browser.find_element_by_xpath("/html/body/div[9]/div[29]/div/div[1]/span").click()
 		except:
