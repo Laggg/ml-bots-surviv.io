@@ -13,8 +13,6 @@ from control_scripts_lib import SurvivAgent, Game
 
 def get_args():
 	parser = argparse.ArgumentParser()
-	parser.add_argument('--model_path', type=str, 
-						default="supporting_files/model_weights.pth")
 	parser.add_argument('--chrome_adblock', type=str,
 						default="supporting_files/uBlockOrigin.crx")
 	parser.add_argument('--device', type=str, default='cpu')
