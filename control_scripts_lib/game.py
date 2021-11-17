@@ -95,7 +95,7 @@ class Game:
 		if classic_mode:     # выбрать классический режим игры (если дефолтно стоит другой)
 			self.browser.find_element_by_id("index-play-mode-selected").click()
 			self.browser.find_element_by_xpath(\
-			"/html/body/div[9]/div[19]/div[12]/div[2]/div[4]/div[3]/div[3]/div[1]/div[3]/div/div[1]").click()
+			"/html/body/div[9]/div[19]/div[13]/div[2]/div[4]/div[3]/div[3]/div[1]/div[3]/div/div[1]").click()
 			
 		  
 		self.callCounters = {}  # call counter for each key
