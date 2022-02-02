@@ -10,7 +10,7 @@
 [![os](https://img.shields.io/badge/Windows-passing-success)]()
 </div>
 
-# Задача для хакатона:
+# Задача на ODS-хакатон:
 1.
 2.
 
