@@ -10,6 +10,11 @@
 [![os](https://img.shields.io/badge/Windows-passing-success)]()
 </div>
 
+# Задача для хакатона:
+1.
+2.
+
+
 # Intro
 We present our **machine learning bot** (ml-bot is in alpha testing), which can play the [surviv.io](https://surviv.io/) game.
 
