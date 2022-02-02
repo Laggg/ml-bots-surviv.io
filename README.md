@@ -18,8 +18,10 @@
 5. После создания модели - нейронного движка игры, можно получить более сильного агента (научить лутать, правильно двигаться)
 6. Данные есть, сервер для вычислений есть, идеи есть, а рук - не хватает. Поэтому - присоединяйтесь, будем рады.
 7. Уже есть некоторые наработки по нейронному движку - нужно улучшать:
-
+ 
+<div align="center">
 ![](jupyter_demo/neural_engine.gif)
+</div>
 
 # Intro
 We present our **machine learning bot** (ml-bot is in alpha testing), which can play the [surviv.io](https://surviv.io/) game.
