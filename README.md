@@ -20,7 +20,9 @@
 7. Уже есть некоторые наработки по нейронному движку - нужно улучшать:
  
 <div align="center">
+  
 ![](jupyter_demo/neural_engine.gif)
+  
 </div>
 
 # Intro
