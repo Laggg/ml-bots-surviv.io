@@ -25,6 +25,14 @@
   
 </div>
 
+9. Сравнение моделей, которые есть в данный момент:
+<div align="center">
+  
+![](jupyter_demo/gif_dir6.gif)
+  
+</div>
+
+
 # Intro
 We present our **machine learning bot** (ml-bot is in alpha testing), which can play the [surviv.io](https://surviv.io/) game.
 
