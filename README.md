@@ -10,7 +10,11 @@
 [![os](https://img.shields.io/badge/Windows-passing-success)]()
 </div>
 
-### UPD: задача на ODS-хакатон 5.02-20.02 - ссылка на [РЕПО](https://github.com/Laggg/neural_env_surviv)
+<div align="center">
+  
+*You can find [support project](https://github.com/Laggg/neural_env_surviv) for this global project  - to create a neural engine (Open Data Science PerProject Hackathon 2022 (5.02-20.02))*  
+  
+</div>
 
 # Intro
 We present our **machine learning bot** (ml-bot is in alpha testing), which can play the [surviv.io](https://surviv.io/) game.
