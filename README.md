@@ -12,7 +12,7 @@
 
 <div align="center">
   
-*You can find [support project](https://github.com/Laggg/neural_env_surviv) for this repo - Autoregressive neural environment for training an RL-agent, the most hardcore completed project according to the OpenDataScience PetProject Hackathon (5.02.2022-20.02.2022)*  
+*You can find [support project](https://github.com/Laggg/neural_env_surviv) for this repo - Autoregressive neural environment for training an RL-agent, the most hardcore completed project according to the OpenDataScience PetProject Hackathon organizers (5.02.2022-20.02.2022)*  
   
 </div>
 
