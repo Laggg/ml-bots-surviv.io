@@ -12,7 +12,7 @@
 
 <div align="center">
   
-*You can find [support project](https://github.com/Laggg/neural_env_surviv) for this global project  - to create a neural engine (Open Data Science PerProject Hackathon 2022 (5.02-20.02))*  
+*You can find [support project](https://github.com/Laggg/neural_env_surviv) for this global project  - Autoregressive neural environment for training an RL-agent (Open Data Science PerProject Hackathon (5.02.2022-20.02.2022)*  
   
 </div>
 
